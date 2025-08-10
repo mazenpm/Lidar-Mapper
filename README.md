@@ -17,12 +17,12 @@ The system operates through the following workflow:
 
 ### Core Components
 
-| Component | Model | Cost | Specifications |
-|-----------|-------|------|----------------|
-| **Microcontroller** | Texas Instruments MSP432E401Y | ~$70 | ARM Cortex-M4F, 40MHz, 4 user LEDs, 2 user switches |
-| **Stepper Motor** | MOT-28BYJ48 w/ ULN2003 Driver | ~$6.95 | 5-12V, 512 steps/360°, LED state indicators |
-| **Time-of-Flight Sensor** | VL53L1X | ~$18.38 | 2.65-3.5V, up to 4m range, I2C communication |
-| **External Button** | Push Button | ~$0.60 | GPIO connected, stops data acquisition |
+| Component | Model | Specifications |
+|-----------|-------|----------------|
+| **Microcontroller** | Texas Instruments MSP432E401Y | ARM Cortex-M4F, 40MHz, 4 user LEDs, 2 user switches |
+| **Stepper Motor** | MOT-28BYJ48 w/ ULN2003 Driver | 5-12V, 512 steps/360°, LED state indicators |
+| **Time-of-Flight Sensor** | VL53L1X | 2.65-3.5V, up to 4m range, I2C communication |
+| **External Button** | Push Button | GPIO connected, stops data acquisition |
 
 ### Communication Interfaces
 
